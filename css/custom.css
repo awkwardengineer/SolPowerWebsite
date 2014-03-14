@@ -40,3 +40,17 @@
 .page-header{
     padding-top: 3em;
 }
+
+.col-xs-6:nth-child(2n+1){
+    clear:left;
+}
+
+@media (min-width:767px){
+    .col-xs-6:nth-child(2n+1){
+        clear:none;
+    }
+
+    .col-sm-4:nth-child(3n+1){
+        clear: left;
+    }
+}
