@@ -1,0 +1,42 @@
+.bg1{
+    background-color: #33CC33;
+    
+}
+
+.bg2{
+    background-color: #000000;
+}
+
+.jumbotron{
+    margin-bottom:0px;
+    min-height: 6em;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+.splash{
+    background-image:url(http://placehold.it/2200x400);
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:400px
+}
+
+.row{
+    padding-top:2em;
+    padding-bottom:2em;
+
+}
+
+.white{
+
+    color:#FFFFFF;
+}
+
+.col-md-3 h2{
+    text-align: center;
+}
+
+.page-header{
+    padding-top: 3em;
+}
