@@ -15,16 +15,18 @@
 }
 
 .splash{
-    background-image:url(http://placehold.it/2200x400);
+    background-image:url(../images/banner2.jpg);
     background-size:auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    min-height:400px
+    min-height:400px;
+    text-shadow: 10px 10px 10px #000000;
+
 }
 
 .row{
-    padding-top:2em;
-    padding-bottom:2em;
+    padding-top:.5em;
+    padding-bottom:.5em;
 
 }
 
