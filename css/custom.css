@@ -15,12 +15,12 @@
 }
 
 .splash{
-    background-image:url(../images/banner2.jpg);
+    background-image:url(../images/banner4.jpg);
     background-size:auto 100%;
     background-repeat: no-repeat;
     background-position: center;
     min-height:400px;
-    text-shadow: 10px 10px 10px #000000;
+    text-shadow: 5px 5px 20px #444444;
 
 }
 
@@ -32,7 +32,7 @@
 
 .white{
 
-    color:#FFFFFF;
+    color:#EEEEEE;
 }
 
 .col-md-3 h2{
@@ -40,7 +40,7 @@
 }
 
 .page-header{
-    padding-top: 3em;
+    padding-top: .5em;
 }
 
 .col-xs-6:nth-child(2n+1){
