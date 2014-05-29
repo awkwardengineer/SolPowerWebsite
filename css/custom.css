@@ -7,6 +7,48 @@
     background-color: #000000;
 }
 
+.bg3{
+    background-color: #f0ad4e;
+}
+
+.h-zigzag { /* Horizontal */
+    background-color: #f0ad4e;
+    /*background:
+        linear-gradient(-135deg, #f0ad4e 5px, transparent 0) 0 5px,
+        linear-gradient(135deg, #f0ad4e 5px, #fff 0) 0 5px;
+    background-color: #f0ad4e;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;*/
+}
+
+.h-zigzag:after {
+    content: " ";
+    display:block;
+    position: relative;
+    width: 100%;
+    bottom:-20px;
+    height:20px;
+    background: linear-gradient(-45deg, transparent 75%, #f0ad4e 75%) 0 50%,
+                linear-gradient( 45deg, transparent 75%, #f0ad4e 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size:20px 20px, 20px 20px;
+}
+
+.h-zigzag:before {
+    content: " ";
+    display:block;
+    position: relative;
+    width: 100%;
+    top:0px;
+    height:20px;
+    background: linear-gradient(-45deg, transparent 75%, white 75%) 0 50%,
+                linear-gradient( 45deg, transparent 75%, white 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size:20px 20px, 20px 20px;
+}
+
+
 .jumbotron{
     margin-bottom:0px;
     min-height: 6em;
