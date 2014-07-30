@@ -26,12 +26,14 @@ class MainPage(webapp2.RequestHandler):
         entry729063598 = self.request.get("entry.729063598")
         entry1294472578 = self.request.get("entry.1294472578")
         entry1482860776 = self.request.get("entry.1482860776")
+        entry156791196 = self.request.get("entry.156791196")
         
         
         form_fields = {
             "entry.729063598": entry729063598,
             "entry.1294472578": entry1294472578,
-            "entry.1482860776": entry1482860776
+            "entry.1482860776": entry1482860776,
+            "entry.156791196":entry156791196
         }
         form_data = urllib.urlencode(form_fields)
         result = urlfetch.fetch(
